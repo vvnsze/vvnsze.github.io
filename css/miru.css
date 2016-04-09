@@ -1,0 +1,43 @@
+body{
+  background-image: url("../images/catWallpaper.jpg");
+  background-size: cover;
+  font-family: 'Shadows Into Light', cursive;
+  margin: 0 auto;
+}
+/**transition:font-size .5s, background .5s; **/
+.navbar{
+  color:black;
+  height:150px;
+  width:100%;
+  background-color: darkgrey;
+}
+.navbox{
+  height:150px;
+}
+h1{
+  background-color: rosybrown;
+  color: pink;
+  font-size: 55px;
+  margin: 0, auto;
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.container{
+  background-color: darkgrey;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+.list{
+  max-width: 105px;
+}
+.catGif{
+    width: 50px;
+    height: 50px;
+}

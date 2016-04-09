@@ -1,0 +1,72 @@
+body{
+  background-image: url("../images/homepage.jpg");;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: lightslategrey;
+  font-family: 'Poiret One', Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+p{
+  font-size: 17px;
+}
+h1{
+  color: mediumaquamarine;
+  font-size: 40px;
+}
+h2{
+  color: rgb(255,182,193);
+  font-size: 30px;
+}
+h6{
+  color:#FFF0F5;
+  font-size: 12px;
+}
+ul{
+  font-size: 17px;
+}
+.headingThree{
+  color: orchid;
+  font-size: 25px;
+}
+.desireList{
+  color:papayawhip;
+}
+.reasonsList{
+  color:papayawhip;
+}
+
+/**
+ * this is to clear the float, there are better ways to do this.
+ * Research clearing floats to learn more.
+ */
+.clearfloat{ clear:both }
+
+/**
+ * Navigation
+ */
+ .navbar {
+   margin:0 auto;
+ }
+
+.navbar ul li{
+  display:inline;
+}
+
+.navbar ul li a{
+  display:block;
+  background: transparent;
+  float:left;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 4px dotted pink;
+}
